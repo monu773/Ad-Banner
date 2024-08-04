@@ -1,0 +1,189 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/style/BannerImageComp.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.BannerImageComp_bannerContainer__pQOJb {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  margin: 16px;
+  width: 32%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+
+.BannerImageComp_bannerContainer__pQOJb:hover {
+  transform: translateY(-5px);
+}
+
+.BannerImageComp_imageWrapper__1byyq {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.BannerImageComp_image__jJCiL {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.BannerImageComp_content__NN03n {
+  padding: 16px;
+  text-align: center;
+}
+
+.BannerImageComp_title___eW87 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  color: #FFFFFF;
+  text-align: start;
+}
+
+.BannerImageComp_description__lTboh {
+  font-size: 1em;
+  margin-bottom: 1em;
+  color: #FFFFFF;
+  text-align: start;
+  width: 60%;
+}
+
+.BannerImageComp_ctaButton__iqlBA {
+  background-color: #0070f3;
+  color: white;
+  display: flex;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.BannerImageComp_ctaButton__iqlBA:hover {
+  background-color: #005bb5;
+}
+
+.BannerImageComp_editButton__DKy7U {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  color: #333;
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/style/EditBannerTemplateBs.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.EditBannerTemplateBs_bottomSheet__sOgmP {
+  position: fixed;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  animation: EditBannerTemplateBs_slideUp__Eq_l1 0.3s ease-in-out;
+}
+
+@keyframes EditBannerTemplateBs_slideUp__Eq_l1 {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.EditBannerTemplateBs_sheetContent__urgQW {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.EditBannerTemplateBs_sheetContent__urgQW h3 {
+  margin-bottom: 20px;
+}
+
+.EditBannerTemplateBs_sheetContent__urgQW label {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.EditBannerTemplateBs_sheetContent__urgQW input,
+.EditBannerTemplateBs_sheetContent__urgQW textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.EditBannerTemplateBs_sheetContent__urgQW textarea {
+  resize: none;
+}
+
+.EditBannerTemplateBs_saveButton__hhZA2 {
+  margin-top: 20px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.EditBannerTemplateBs_saveButton__hhZA2:hover {
+  background-color: #005bb5;
+}
+
+.EditBannerTemplateBs_closeButton__Xqb8b {
+  margin-top: 10px;
+  background-color: #f5f5f5;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.EditBannerTemplateBs_closeButton__Xqb8b:hover {
+  background-color: #ddd;
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/style/Home.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.Home_container__yQ1q1 {
+  padding: 20px;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: dodgerblue;
+  height: 100vh;
+  width: 100vw;
+}
+
+.Home_heading__XimHM {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+}
+
+.Home_bannerList__pfbBq {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+

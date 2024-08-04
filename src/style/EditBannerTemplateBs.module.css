@@ -1,0 +1,75 @@
+.bottomSheet {
+  position: fixed;
+  background: white;
+  padding: 20px;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  animation: slideUp 0.3s ease-in-out;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.sheetContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sheetContent h3 {
+  margin-bottom: 20px;
+}
+
+.sheetContent label {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.sheetContent input,
+.sheetContent textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.sheetContent textarea {
+  resize: none;
+}
+
+.saveButton {
+  margin-top: 20px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.saveButton:hover {
+  background-color: #005bb5;
+}
+
+.closeButton {
+  margin-top: 10px;
+  background-color: #f5f5f5;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.closeButton:hover {
+  background-color: #ddd;
+}
